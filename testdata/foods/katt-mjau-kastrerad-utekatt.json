@@ -1,0 +1,42 @@
+{
+  "name": "Mjau Torrfoder för Kastrerad Utekatt",
+  "brand": "Mjau",
+  "source": "https://dogman.se/product/c465683-torrfoder-for-kastrerad-utekatt/465909",
+  "fetchedAt": "2026-10-08",
+  "species": "katt",
+  "foodType": "torr",
+  "targetGroup": "Kastrerade utekatter med aktivt uteliv",
+  "ingredients": [
+    { "name": "Torkad kyckling", "percent": null, "group": "animaliskt" },
+    { "name": "Vete", "percent": null, "group": "spannmal" },
+    { "name": "Majs", "percent": null, "group": "spannmal" },
+    { "name": "Fläskfett", "percent": null, "group": "fett" },
+    { "name": "Torkat fläsk", "percent": null, "group": "animaliskt" },
+    { "name": "Färsk svensk kyckling", "percent": 6, "group": "animaliskt" },
+    { "name": "Ris", "percent": null, "group": "spannmal" },
+    { "name": "Kycklingbuljong", "percent": null, "group": "animaliskt" },
+    { "name": "Majsgluten", "percent": null, "group": "spannmal" },
+    { "name": "Torkad betmassa", "percent": null, "group": "ovrigt" },
+    { "name": "Torkade ägg", "percent": null, "group": "animaliskt" },
+    { "name": "Fiskmjöl", "percent": null, "group": "animaliskt" },
+    { "name": "Mineraler", "percent": null, "group": "tillsats" },
+    { "name": "Jäst", "percent": null, "group": "ovrigt" }
+  ],
+  "analysis": { "protein": 33, "fat": 17, "fibre": 1.5, "ash": 7, "moisture": 9, "calcium": 1, "phosphorus": 0.8 },
+  "energyKcalPerKg": 3967,
+  "additives": [
+    { "name": "Vitamin A", "amount": 10000, "unit": "IE/kg" },
+    { "name": "Vitamin D3", "amount": 1000, "unit": "IE/kg" },
+    { "name": "Vitamin E", "amount": 60, "unit": "mg/kg" },
+    { "name": "Taurin", "amount": 800, "unit": "mg/kg" },
+    { "name": "Koppar", "amount": 10, "unit": "mg/kg" },
+    { "name": "Mangan", "amount": 7, "unit": "mg/kg" },
+    { "name": "Zink", "amount": 70, "unit": "mg/kg" },
+    { "name": "Jod", "amount": 0.5, "unit": "mg/kg" },
+    { "name": "Antioxidanter", "amount": null, "unit": null }
+  ],
+  "claims": ["Minskad risk för urinsten"],
+  "conflictingValues": [],
+  "price": { "sek": 439, "kg": 8.5 },
+  "expected": { "red": 0, "orange": 2, "yellow": 1 }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Essential Superior Living",
+  "brand": "Essential Foods",
+  "source": "https://essentialfoods.se/products/superior-living-10kg-uk?variant=46804863844590",
+  "fetchedAt": "2026-10-08",
+  "species": "hund",
+  "foodType": "torr",
+  "targetGroup": "Vuxna hundar med normal aktivitet",
+  "ingredients": [
+    { "name": "Kyckling (frigående, färsk och torkad)", "percent": null, "group": "animaliskt" },
+    { "name": "Anka (färsk och torkad)", "percent": null, "group": "animaliskt" },
+    { "name": "Lax och öring (färsktillagade)", "percent": null, "group": "animaliskt" },
+    { "name": "Hela ägg", "percent": null, "group": "animaliskt" },
+    { "name": "Kycklingfett", "percent": null, "group": "fett" },
+    { "name": "Leverfond", "percent": null, "group": "animaliskt" },
+    { "name": "Sötpotatis", "percent": null, "group": "kolhydrat" },
+    { "name": "Ärtor", "percent": null, "group": "baljvaxt" },
+    { "name": "Potatis", "percent": null, "group": "kolhydrat" },
+    { "name": "Linfrö", "percent": null, "group": "fett" },
+    { "name": "Alfalfa", "percent": null, "group": "ovrigt" },
+    { "name": "Vitaminer och mineraler", "percent": null, "group": "tillsats" },
+    { "name": "Prebiotika (MOS, FOS)", "percent": null, "group": "ovrigt" },
+    { "name": "Frukt, bär och grönsaker", "percent": null, "group": "ovrigt" }
+  ],
+  "analysis": { "protein": 31, "fat": 16, "fibre": 3.5, "ash": 8.5, "moisture": 8.5, "calcium": 1.6, "phosphorus": 1.3 },
+  "analysisExtras": { "glukosamin": 0.09, "kondroitin": 0.07 },
+  "energyKcalPerKg": 3700,
+  "additives": [
+    { "name": "Vitamin A", "amount": 15000, "unit": "IE/kg" },
+    { "name": "Vitamin D3", "amount": 2000, "unit": "IE/kg" },
+    { "name": "Vitamin E", "amount": 240, "unit": "IE/kg" },
+    { "name": "Taurin", "amount": 1500, "unit": "mg/kg" },
+    { "name": "Rosmarinextrakt (konservering)", "amount": null, "unit": null }
+  ],
+  "claims": ["83 % animaliska råvaror", "Spannmålsfri", "BOF Approved", "Ge ca 15 % mindre än påsens tabell"],
+  "claimedAnimalPercent": 83,
+  "conflictingValues": [],
+  "price": { "sek": 1199, "kg": 10 },
+  "expected": { "red": 0, "orange": 1, "yellow": 2 }
+}

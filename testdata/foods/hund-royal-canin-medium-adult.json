@@ -1,0 +1,52 @@
+{
+  "name": "Royal Canin Medium Adult",
+  "brand": "Royal Canin",
+  "source": "https://www.vetzoo.se/produkt/royal-canin-medium-adult-torrfoder-till-hund-P001398?pid=207778",
+  "fetchedAt": "2026-10-08",
+  "species": "hund",
+  "foodType": "torr",
+  "targetGroup": "Vuxna medelstora hundar 11–25 kg, 12 månader–7 år",
+  "ingredients": [
+    { "name": "Torkade fjäderfäproteiner", "percent": null, "group": "animaliskt" },
+    { "name": "Vete", "percent": null, "group": "spannmal" },
+    { "name": "Majsmjöl", "percent": null, "group": "spannmal" },
+    { "name": "Vetemjöl", "percent": null, "group": "spannmal" },
+    { "name": "Majs", "percent": null, "group": "spannmal" },
+    { "name": "Hydrolyserade animaliska proteiner", "percent": null, "group": "animaliskt" },
+    { "name": "Djurfetter", "percent": null, "group": "fett" },
+    { "name": "Dehydrerade nöt- och fläskproteiner", "percent": null, "group": "animaliskt" },
+    { "name": "Korn", "percent": null, "group": "spannmal" },
+    { "name": "Majsgluten", "percent": null, "group": "spannmal" },
+    { "name": "Betmassa", "percent": null, "group": "ovrigt" },
+    { "name": "Mineraler", "percent": null, "group": "tillsats" },
+    { "name": "Sojaolja", "percent": null, "group": "fett" },
+    { "name": "Jästprodukter", "percent": null, "group": "ovrigt" },
+    { "name": "Fiskolja", "percent": null, "group": "fett" },
+    { "name": "Jäst (källa till mannanoligosackarider)", "percent": null, "group": "ovrigt" },
+    { "name": "Algolja Schizochytrium sp.", "percent": null, "group": "fett" }
+  ],
+  "analysis": { "protein": 25.0, "fat": 14.0, "fibre": 1.6, "ash": 6.2, "moisture": null, "calcium": null, "phosphorus": null },
+  "energyKcalPerKg": null,
+  "additives": [
+    { "name": "Vitamin A", "amount": 16000, "unit": "IE/kg" },
+    { "name": "Vitamin D3", "amount": 1000, "unit": "IE/kg" },
+    { "name": "Vitamin C", "amount": 120, "unit": "mg/kg" },
+    { "name": "Vitamin E", "amount": 500, "unit": "mg/kg" },
+    { "name": "Järn", "amount": 35, "unit": "mg/kg" },
+    { "name": "Jod", "amount": 3.5, "unit": "mg/kg" },
+    { "name": "Koppar", "amount": 11, "unit": "mg/kg" },
+    { "name": "Mangan", "amount": 46, "unit": "mg/kg" },
+    { "name": "Zink", "amount": 129, "unit": "mg/kg" },
+    { "name": "Selen", "amount": 0.09, "unit": "mg/kg" },
+    { "name": "Konserveringsmedel", "amount": null, "unit": null },
+    { "name": "Antioxidanter", "amount": null, "unit": null }
+  ],
+  "claims": [
+    "Högkvalitativa proteiner och balanserade kostfibrer stödjer magtarmhälsan.",
+    "Omega 3-fettsyror (EPA-DHA) bidrar till hudens hälsa och pälsens glans.",
+    "Antioxidanter och mannan-oligosackarider stärker hundens immunförsvar."
+  ],
+  "conflictingValues": [],
+  "price": null,
+  "expected": { "red": 0, "orange": 3, "yellow": 1 }
+}

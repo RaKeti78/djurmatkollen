@@ -1,0 +1,39 @@
+{
+  "name": "SMAAK Cat Raw Complete Sterilised Kyckling & Kalkon",
+  "brand": "SMAAK",
+  "source": "https://www.arkenzoo.se/smaak-cat-raw-complete-sterilised-kyckling-kalkon-1-kg",
+  "fetchedAt": "2026-10-09",
+  "species": "katt",
+  "foodType": "farsk",
+  "targetGroup": "Vuxna och seniora steriliserade katter",
+  "ingredients": [
+    { "name": "Broilerbröstfilé", "percent": null, "group": "animaliskt" },
+    { "name": "Broilerkött", "percent": null, "group": "animaliskt" },
+    { "name": "Broilermuskelmage", "percent": null, "group": "animaliskt" },
+    { "name": "Kalkonkött", "percent": null, "group": "animaliskt" },
+    { "name": "Broilerhjärta", "percent": null, "group": "animaliskt" },
+    { "name": "Broilerlever", "percent": null, "group": "animaliskt" },
+    { "name": "Psyllium", "percent": null, "group": "ovrigt" },
+    { "name": "Bryggerijäst", "percent": null, "group": "ovrigt" },
+    { "name": "Tranbär", "percent": null, "group": "ovrigt" },
+    { "name": "Vitaminer och mineraler", "percent": null, "group": "tillsats" }
+  ],
+  "analysis": { "protein": 18.8, "fat": 7.7, "fibre": 1.0, "ash": 2.6, "moisture": 69.5, "carbohydrates": 0.4, "calcium": 0.51, "phosphorus": 0.39 },
+  "energyKcalPerKg": 1470,
+  "additives": [
+    { "name": "Vitamin D3", "amount": 20, "unit": "IE/100 g", "note": "Sidan anger ingen enhet per vikt, troligen per 100 g" },
+    { "name": "Vitamin E", "amount": 2, "unit": "IE/100 g" },
+    { "name": "Vitamin B1", "amount": 0.1, "unit": "mg/100 g" },
+    { "name": "Zink", "amount": 3, "unit": "mg/100 g" },
+    { "name": "Järn", "amount": 1, "unit": "mg/100 g" },
+    { "name": "Koppar", "amount": 0.15, "unit": "mg/100 g" },
+    { "name": "Mangan", "amount": 0.25, "unit": "mg/100 g" },
+    { "name": "Jod", "amount": 65, "unit": "µg/100 g" },
+    { "name": "Kolinklorid", "amount": 70, "unit": "mg/100 g" },
+    { "name": "Taurin", "amount": 100, "unit": "mg/100 g" }
+  ],
+  "claims": ["Komplett helfoder för steriliserade katter", "Benfritt", "Tranbär för friska urinvägar", "Spannmålsfritt"],
+  "conflictingValues": [],
+  "price": { "sek": 73.9, "kg": 1 },
+  "expected": { "red": 0, "orange": 1, "yellow": 2 }
+}

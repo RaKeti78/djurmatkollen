@@ -103,9 +103,9 @@ I version 1 gör Claude i projektet det som Backend och Utläsning med AI gör i
 
 | Nivå | Hund och katt | Bara hund | Bara katt |
 | --- | --- | --- | --- |
-| Röd | Socker eller sirap, konstgjorda färgämnen, BHA, BHT, etoxikin, propylenglykol | – | Taurin saknas |
+| Röd | Socker eller sirap, konstgjorda färgämnen, BHA, BHT, etoxikin, propylenglykol | – | Taurin saknas i värmebehandlat foder |
 | Orange | Djurkälla som inte anges ("animaliska biprodukter", "djurfetter"), konserveringsmedel eller antioxidanter som inte anges, spannmål uppdelad på 3 eller fler namn, baljväxter i spannmålsfritt foder utan angiven mängd | Fett över 18 %, protein under 18 % | Fett över 22 %, protein under 26 %, kolhydrater över 35 % |
-| Gul | Påstående som inte stämmer med siffrorna (D3), "nyttiga" tillsatser under 0,1 %, procent saknas för någon av de fem första ingredienserna, två olika värden för samma sak på sidan (K7), råfoder (hygienråd: rått kött kan bära salmonella) | | |
+| Gul | Påstående som inte stämmer med siffrorna (D3), "nyttiga" tillsatser under 0,1 %, procent saknas för någon av de fem första ingredienserna, två olika värden för samma sak på sidan (K7), råfoder (hygienråd: rått kött kan bära salmonella) | | Råfoder utan angiven taurinhalt (hjärta ger naturligt taurin, men mängden är okänd) |
 
 ### D5 Diagram
 
@@ -133,7 +133,7 @@ Sju uppgifter för version 1, fem för version 2 och tre för version 3. Varje u
 
 **Version 1**
 
-- [x] **U1 Projektet.** Repot med specen som fil, testuppsättning och exempelfodren som testdata (fem hundfoder varav två färsk-/frysta, tre kattfoder). (alla)
+- [x] **U1 Projektet.** Repot med specen som fil, testuppsättning och exempelfodren som testdata (fem hundfoder varav två färsk-/frysta, fyra kattfoder varav ett färsk-/fryst). (alla)
 - [ ] **U2 Datamodell.** Definiera datamodellen i kod med validering. (D2)
 - [ ] **U3 Utläsning i projektet.** En fast instruktion för hur Claude hämtar sidan, rensar länken och fyller datamodellen. Värdena i testdata är facit. (K1, K7)
 - [ ] **U4 Beräkningar.** Kolhydrater, torrfoderbasis, kilopris och kontroll av köttpåståenden. (K4, D3)

@@ -5,23 +5,22 @@
   "fetchedAt": "2026-10-09",
   "species": "hund",
   "foodType": "farsk",
-  "targetGroup": "Vuxna hundar med medelhög aktivitet",
+  "complementary": false,
+  "targetGroup": "Vuxna hundar, medelaktiva, som inte tål för hög halt protein",
   "ingredients": [
-    { "name": "Nöt (kött, fett, organ, brosk, ben, 30 % nötvom)", "percent": 91, "group": "animaliskt" },
-    { "name": "Lax (kött, ben)", "percent": 5, "group": "animaliskt" },
+    { "name": "Nöt (kött/fett/organ/brosk/ben/30 % nötvom)", "percent": 91, "group": "animaliskt" },
+    { "name": "Lax (kött/ben)", "percent": 5, "group": "animaliskt" },
     { "name": "Kokt korn", "percent": 4, "group": "spannmal" },
-    { "name": "Kalcium, mineraler, vitaminer", "percent": null, "group": "tillsats" }
+    { "name": "Kalk", "percent": null, "group": "tillsats" },
+    { "name": "Mineraler", "percent": null, "group": "tillsats" },
+    { "name": "Vitaminer", "percent": null, "group": "tillsats" }
   ],
-  "ingredientNotes": "Innehåller ca 6 % ben från nöt och lax.",
+  "ingredientNotes": "Nötvom 30 % ingår i nötandelen. Innehåller cirka 6 % ben från nöt och lax.",
   "analysis": { "protein": 13.5, "fat": 18.5, "fibre": null, "ash": 1.5, "moisture": 63, "carbohydrates": 3.5, "calcium": 0.4, "phosphorus": 0.33 },
   "energyKcalPerKg": null,
-  "additives": [
-    { "name": "Kalcium", "amount": null, "unit": null },
-    { "name": "Mineraler", "amount": null, "unit": null },
-    { "name": "Vitaminer", "amount": null, "unit": null }
-  ],
-  "claims": ["Svenskt helfoder", "Passar hundar som inte tål hög proteinhalt"],
+  "additives": [],
+  "claims": ["Fryst svenskt helfoder för vuxna hundar", "Passar hundar som inte tål för hög halt protein", "Innehåller svensk nöt och norsk lax"],
   "conflictingValues": [],
-  "price": { "sek": 179, "kg": 5 },
+  "price": { "sek": 30, "kg": 0.5 },
   "expected": { "red": 0, "orange": 1, "yellow": 1 }
 }

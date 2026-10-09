@@ -5,7 +5,7 @@ import type { Food } from "./model.js";
 const IGNORED = new Set(["fetchedAt", "expected", "id"]);
 
 // Fritext som bara visas för läsaren och inte används av beräkningar eller
-// varningsregler. Den kan formuleras olika från gång till gång, så skillnader
+// varningsregler (tillsatsernas note räknas också hit). Den kan formuleras olika från gång till gång, så skillnader
 // där ska granskas men räknas inte som fel.
 const FREE_TEXT = new Set(["name", "targetGroup", "claims", "ingredientNotes"]);
 
@@ -59,6 +59,7 @@ const isObject = (v: Json | undefined): v is { [key: string]: Json } =>
 export function compareFoods(actual: Food, facit: Food): Comparison {
   const all: string[] = [];
   diff(actual as unknown as Json, facit as unknown as Json, "", all);
-  const isFreeText = (d: string) => FREE_TEXT.has(d.split(/[.[:]/)[0]);
+  const isFreeText = (d: string) =>
+    FREE_TEXT.has(d.split(/[.[:]/)[0]) || /^additives\[\d+\]\.note:/.test(d);
   return { differences: all.filter((d) => !isFreeText(d)), review: all.filter(isFreeText) };
 }

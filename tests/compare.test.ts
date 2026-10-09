@@ -36,6 +36,14 @@ describe("jämförelse med facit (U3)", () => {
     expect(review.some((d) => d.startsWith("claims"))).toBe(true);
   });
 
+  it("räknar tillsatsernas note som fritext", () => {
+    const food = extracted((f) => (f.additives[0].note = "Något"));
+    expect(compareFoods(food, facit)).toEqual({
+      differences: [],
+      review: ['additives[0].note: "Något", facit saknas'],
+    });
+  });
+
   it("visar varje värde som skiljer sig, med sökväg", () => {
     const food = extracted((f) => {
       f.analysis.protein += 1;

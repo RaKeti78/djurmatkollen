@@ -5,18 +5,19 @@
   "fetchedAt": "2026-10-09",
   "species": "hund",
   "foodType": "farsk",
-  "targetGroup": "Vuxna hundar, särskilt seniorer och hundar som är nya på råfoder",
+  "complementary": false,
+  "targetGroup": "Vuxna hundar, seniorer och hundar som börjar med råfoder",
   "ingredients": [
-    { "name": "Nöt (kött, mage, hjärta, lunga, senor, brosk)", "percent": 40, "group": "animaliskt" },
+    { "name": "Nötkreatur (kött, mage, hjärta, lunga, senor, brosk)", "percent": 40, "group": "animaliskt" },
     { "name": "Gris (kött, hjärta, lunga, lever, ben, brosk)", "percent": 27, "group": "animaliskt" },
     { "name": "Kyckling (kött, ben, muskelmage, lever, brosk)", "percent": 23, "group": "animaliskt" },
-    { "name": "Grönsaker, frukt och oljor (broccoli, sallad, äpple, morot, kallpressad solrosolja, oljedådraolja)", "percent": 10, "group": "ovrigt" }
+    { "name": "Grönsaker, frukter och oljor (broccoli, sallad, äpple, morot, kallpressad solrosolja, camelinaolja)", "percent": 10, "group": "ovrigt" }
   ],
   "ingredientNotes": "Ben 6 % och lever 6 % ingår i köttandelarna ovan.",
   "analysis": { "protein": 14.9, "fat": 15.8, "fibre": 1.4, "ash": 2.0, "moisture": 65.3, "calcium": 0.5, "phosphorus": 0.4 },
   "energyKcalPerKg": 2090,
   "additives": [],
-  "claims": ["Inga tillsatser eller konserveringsmedel", "Fiberrikast i Vaisto-serien"],
+  "claims": ["Råfryst helfoder för vuxna hundar", "Vaisto-seriens mest fiberrika recept", "10% grönsaker, frukt och oljor, 6% ben", "Inga vitaminer är tillsatta", "Kan serveras som hundens hela måltid", "Cirka 2% av hundens kroppsvikt per dag"],
   "conflictingValues": [],
   "price": null,
   "expected": { "red": 0, "orange": 1, "yellow": 1 }

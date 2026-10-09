@@ -11,7 +11,7 @@ Projektet byggs med spec driven development. Allt börjar i [docs/spec.md](docs/
 | `docs/` | Specen |
 | `src/` | Datamodell, beräkningar, varningsregler och diagram |
 | `tests/` | Tester mot exempelfodren |
-| `testdata/foods/` | Sex exempelfoder (tre hund, tre katt) med facit för varningarna |
+| `testdata/foods/` | Exempelfoder för hund och katt med facit för varningarna |
 
 ## Kom igång
 
@@ -22,4 +22,4 @@ npm test
 
 ## Status
 
-Version 1, uppgift U1 klar. Nästa steg är U2 (datamodellen).
+Version 1: U1 (projektgrund) och U2 (datamodell) klara. Nästa steg är U3 (utläsning).

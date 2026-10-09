@@ -1,0 +1,26 @@
+{
+  "name": "SMAAK Raw Complementary Kyckling med Ben",
+  "brand": "SMAAK",
+  "source": "https://www.arkenzoo.se/smaak-raw-complementary-kyckling-med-ben",
+  "fetchedAt": "2026-10-09",
+  "species": "hund",
+  "alsoFor": ["katt"],
+  "foodType": "farsk",
+  "complementary": true,
+  "targetGroup": "Vuxna och seniora hundar och katter",
+  "ingredients": [
+    { "name": "Kycklingkött och brosk", "percent": 70, "group": "animaliskt" },
+    { "name": "Kycklingben", "percent": 30, "group": "animaliskt" }
+  ],
+  "analysis": { "protein": 16.4, "fat": 14.3, "fibre": null, "ash": 4, "moisture": 62, "calcium": 2.12, "phosphorus": 1.24 },
+  "energyKcalPerKg": 1780,
+  "additives": [],
+  "claims": ["Kompletteringsfoder", "Bör inte ges tillsammans med torrfoder", "30 % ben"],
+  "conflictingValues": [
+    { "field": "protein", "values": [16.4, 0.16] },
+    { "field": "fat", "values": [14.3, 0.14] },
+    { "field": "size", "values": ["3 x 200 g", "500 g"] }
+  ],
+  "price": { "sek": 36.9, "kg": 0.6 },
+  "expected": { "red": 0, "orange": 2, "yellow": 2 }
+}

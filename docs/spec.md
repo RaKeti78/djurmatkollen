@@ -25,7 +25,7 @@ Arbetet följer spec driven development i fyra led: **krav** (vad den ska göra)
 1. NÄR en giltig länk klistras in SKA systemet hämta sidan och visa resultatet utan fler steg.
 2. NÄR länken har spårningsparametrar (utm_, gclid m.fl.) SKA de tas bort innan sidan hämtas.
 3. NÄR sidan inte går att hämta eller saknar foderinformation SKA systemet säga det tydligt och erbjuda att klistra in etiketttexten i stället.
-4. NÄR fodret inte är torr- eller våtfoder för hund eller katt SKA systemet säga att det inte stöds än. Konserverat foder kommer i version 2.
+4. NÄR fodret inte är torr-, våt- eller färsk-/fryst foder för hund eller katt SKA systemet säga att det inte stöds än. Konserverat foder kommer i version 2.
 
 **K2 Se upp med (varningar).** Som djurägare vill jag se dåliga eller tveksamma ingredienser först.
 
@@ -84,7 +84,7 @@ I version 1 gör Claude i projektet det som Backend och Utläsning med AI gör i
 | Fält | Innehåll | Exempel |
 | --- | --- | --- |
 | namn, märke, källa | Produktnamn och länk | Royal Canin Medium Adult |
-| djurslag, fodertyp | Hund eller katt, torr eller våt | Hund, torrfoder |
+| djurslag, fodertyp | Hund eller katt; torr, våt eller färsk/fryst | Hund, torrfoder |
 | målgrupp | Ålder, storlek, aktivitet | Vuxen, 11–25 kg |
 | ingredienser | Lista i sidans ordning med namn, procent (eller tomt), grupp | Vattenbuffel, 30 %, animaliskt |
 | analys | Protein, fett, fibrer, aska, vatten, kalcium, fosfor i % | 25 / 14 / 1,6 / 6,2 / – |
@@ -105,7 +105,7 @@ I version 1 gör Claude i projektet det som Backend och Utläsning med AI gör i
 | --- | --- | --- | --- |
 | Röd | Socker eller sirap, konstgjorda färgämnen, BHA, BHT, etoxikin, propylenglykol | – | Taurin saknas |
 | Orange | Djurkälla som inte anges ("animaliska biprodukter", "djurfetter"), konserveringsmedel eller antioxidanter som inte anges, spannmål uppdelad på 3 eller fler namn, baljväxter i spannmålsfritt foder utan angiven mängd | Fett över 18 %, protein under 18 % | Fett över 22 %, protein under 26 %, kolhydrater över 35 % |
-| Gul | Påstående som inte stämmer med siffrorna (D3), "nyttiga" tillsatser under 0,1 %, procent saknas för någon av de fem första ingredienserna, två olika värden för samma sak på sidan (K7) | | |
+| Gul | Påstående som inte stämmer med siffrorna (D3), "nyttiga" tillsatser under 0,1 %, procent saknas för någon av de fem första ingredienserna, två olika värden för samma sak på sidan (K7), råfoder (hygienråd: rått kött kan bära salmonella) | | |
 
 ### D5 Diagram
 
@@ -133,7 +133,7 @@ Sju uppgifter för version 1, fem för version 2 och tre för version 3. Varje u
 
 **Version 1**
 
-- [x] **U1 Projektet.** Repot med specen som fil, testuppsättning och exempelfodren som testdata (tre hundfoder, tre kattfoder; ett våtfoder saknas än). (alla)
+- [x] **U1 Projektet.** Repot med specen som fil, testuppsättning och exempelfodren som testdata (fyra hundfoder varav ett färsk-/fryst, tre kattfoder). (alla)
 - [ ] **U2 Datamodell.** Definiera datamodellen i kod med validering. (D2)
 - [ ] **U3 Utläsning i projektet.** En fast instruktion för hur Claude hämtar sidan, rensar länken och fyller datamodellen. Värdena i testdata är facit. (K1, K7)
 - [ ] **U4 Beräkningar.** Kolhydrater, torrfoderbasis, kilopris och kontroll av köttpåståenden. (K4, D3)

@@ -11,7 +11,7 @@ export type TestFood = {
   name: string;
   source: string;
   species: "hund" | "katt";
-  foodType: "torr" | "vat";
+  foodType: "torr" | "vat" | "farsk";
   ingredients: { name: string; percent: number | null; group: string }[];
   analysis: {
     protein: number;

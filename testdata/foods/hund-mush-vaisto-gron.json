@@ -1,0 +1,23 @@
+{
+  "name": "Mush Vaisto Grön nöt/gris/kyckling",
+  "brand": "Mush",
+  "source": "https://www.granngarden.se/farskfoder-mush-vaisto-gron-notgriskyckling-3kg",
+  "fetchedAt": "2026-10-09",
+  "species": "hund",
+  "foodType": "farsk",
+  "targetGroup": "Vuxna hundar, särskilt seniorer och hundar som är nya på råfoder",
+  "ingredients": [
+    { "name": "Nöt (kött, mage, hjärta, lunga, senor, brosk)", "percent": 40, "group": "animaliskt" },
+    { "name": "Gris (kött, hjärta, lunga, lever, ben, brosk)", "percent": 27, "group": "animaliskt" },
+    { "name": "Kyckling (kött, ben, muskelmage, lever, brosk)", "percent": 23, "group": "animaliskt" },
+    { "name": "Grönsaker, frukt och oljor (broccoli, sallad, äpple, morot, kallpressad solrosolja, oljedådraolja)", "percent": 10, "group": "ovrigt" }
+  ],
+  "ingredientNotes": "Ben 6 % och lever 6 % ingår i köttandelarna ovan.",
+  "analysis": { "protein": 14.9, "fat": 15.8, "fibre": 1.4, "ash": 2.0, "moisture": 65.3, "calcium": 0.5, "phosphorus": 0.4 },
+  "energyKcalPerKg": 2090,
+  "additives": [],
+  "claims": ["Inga tillsatser eller konserveringsmedel", "Fiberrikast i Vaisto-serien"],
+  "conflictingValues": [],
+  "price": null,
+  "expected": { "red": 0, "orange": 1, "yellow": 1 }
+}

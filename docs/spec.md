@@ -98,6 +98,7 @@ I version 1 gör Claude i projektet det som Backend och Utläsning med AI gör i
 - Kolhydrater = 100 − protein − fett − fibrer − aska − vatten.
 - När vatten saknas används 9 % för torrfoder och 78 % för våtfoder, märkt som uppskattat (K4.2). Torrfoderbasis = värde × 90 / (100 − vatten), det vill säga som om fodret hade 10 % vatten. Varningsgränserna i D4 jämförs alltid mot torrfoderbasis.
 - Kilopris = pris / vikt.
+- Fettgränsen för katt bygger på bytesdjur: mus, råtta, kanin och fågel har 22–35 % fett i torrsubstans ([Merck Veterinary Manual](https://www.merckvetmanual.com/multimedia/table/proximate-analysis-of-whole-prey)). FEDIAF anger bara ett minimum (9 %) och inget maximum.
 - Summan av angivna animaliska procent jämförs med tillverkarens påstående och flaggas om de skiljer mer än 5 procentenheter.
 
 ### D4 Varningsregler
@@ -105,8 +106,8 @@ I version 1 gör Claude i projektet det som Backend och Utläsning med AI gör i
 | Nivå | Hund och katt | Bara hund | Bara katt |
 | --- | --- | --- | --- |
 | Röd | Socker eller sirap, konstgjorda färgämnen, BHA, BHT, etoxikin, propylenglykol | – | Taurin saknas i värmebehandlat foder |
-| Orange | Djurkälla som inte anges ("animaliska biprodukter", "djurfetter"), konserveringsmedel eller antioxidanter som inte anges, spannmål uppdelad på 3 eller fler namn, baljväxter i spannmålsfritt foder utan angiven mängd, kompletteringsfoder (räcker inte som ensam mat) | Fett över 18 %, protein under 18 % | Fett över 22 %, protein under 26 %, kolhydrater över 35 % |
-| Gul | Påstående som inte stämmer med siffrorna (D3), "nyttiga" tillsatser under 0,1 %, procent saknas för någon av de fem första ingredienserna, två olika värden för samma sak på sidan (K7), råfoder (hygienråd: rått kött kan bära salmonella) | | Råfoder utan angiven taurinhalt (hjärta ger naturligt taurin, men mängden är okänd) |
+| Orange | Djurkälla som inte anges ("animaliska biprodukter", "djurfetter"), konserveringsmedel eller antioxidanter som inte anges, spannmål uppdelad på 3 eller fler namn, baljväxter i spannmålsfritt foder utan angiven mängd, kompletteringsfoder (räcker inte som ensam mat) | Fett över 18 %, protein under 18 % | Fett över 30 %, protein under 26 %, kolhydrater över 35 % |
+| Gul | Påstående som inte stämmer med siffrorna (D3), "nyttiga" tillsatser under 0,1 %, procent saknas för någon av de fem första ingredienserna, två olika värden för samma sak på sidan (K7), råfoder (hygienråd: rått kött kan bära salmonella) | | Råfoder utan angiven taurinhalt (hjärta ger naturligt taurin, men mängden är okänd), fett över 22 % i foder för kastrerade katter eller viktkontroll |
 
 ### D5 Diagram
 

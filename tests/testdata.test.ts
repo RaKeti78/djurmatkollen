@@ -14,14 +14,14 @@ describe("testdata", () => {
       expect(food.source).toMatch(/^https:\/\//);
       expect(food.source).not.toMatch(/[?&](utm_|gclid|gad_|gbraid)/);
       expect(food.ingredients.length).toBeGreaterThan(0);
-      for (const key of ["protein", "fat", "fibre", "ash"] as const) {
+      for (const key of ["protein", "fat", "ash"] as const) {
         expect(food.analysis[key]).toBeGreaterThan(0);
       }
     });
 
     it("har en analys som inte överstiger 100 %", () => {
       const { protein, fat, fibre, ash, moisture } = food.analysis;
-      expect(protein + fat + fibre + ash + (moisture ?? 0)).toBeLessThanOrEqual(100);
+      expect(protein + fat + (fibre ?? 0) + ash + (moisture ?? 0)).toBeLessThanOrEqual(100);
     });
 
     it("har facit för varningarna (U5)", () => {

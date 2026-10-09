@@ -133,7 +133,7 @@ Sju uppgifter för version 1, fem för version 2 och tre för version 3. Varje u
 
 **Version 1**
 
-- [x] **U1 Projektet.** Repot med specen som fil, testuppsättning och exempelfodren som testdata (fyra hundfoder varav ett färsk-/fryst, tre kattfoder). (alla)
+- [x] **U1 Projektet.** Repot med specen som fil, testuppsättning och exempelfodren som testdata (fem hundfoder varav två färsk-/frysta, tre kattfoder). (alla)
 - [ ] **U2 Datamodell.** Definiera datamodellen i kod med validering. (D2)
 - [ ] **U3 Utläsning i projektet.** En fast instruktion för hur Claude hämtar sidan, rensar länken och fyller datamodellen. Värdena i testdata är facit. (K1, K7)
 - [ ] **U4 Beräkningar.** Kolhydrater, torrfoderbasis, kilopris och kontroll av köttpåståenden. (K4, D3)

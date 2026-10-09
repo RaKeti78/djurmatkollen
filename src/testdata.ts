@@ -16,7 +16,7 @@ export type TestFood = {
   analysis: {
     protein: number;
     fat: number;
-    fibre: number;
+    fibre: number | null;
     ash: number;
     moisture: number | null;
   };

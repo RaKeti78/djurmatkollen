@@ -1,12 +1,10 @@
 import { z } from "zod";
+import { hasTrackingParams } from "./link.js";
 
 // Datamodellen för ett foder (D2). Allt som regelmotorn och diagrammen läser
 // kommer härifrån, så att utläsningen (U3) bara behöver fylla i ett format.
 
 const percent = z.number().min(0).max(100);
-
-// Spårningsparametrar ska vara borttagna innan länken sparas (K1.2).
-const TRACKING_PARAM = /[?&](utm_[a-z_]*|gclid|gclsrc|gad_[a-z]*|gbraid|wbraid|fbclid|pu)=/i;
 
 export const Species = z.enum(["hund", "katt"]);
 
@@ -71,7 +69,8 @@ export const Food = z
     brand: z.string().min(1),
     source: z
       .url({ protocol: /^https$/ })
-      .refine((u) => !TRACKING_PARAM.test(u), {
+      // Spårningsparametrar ska vara borttagna innan länken sparas (K1.2).
+      .refine((u) => !hasTrackingParams(u), {
         message: "Länken innehåller spårningsparametrar (K1.2)",
       }),
     fetchedAt: z.iso.date(),

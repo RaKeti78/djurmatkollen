@@ -34,7 +34,7 @@ describe("datamodellen (D2)", () => {
 
   describe("avvisar", () => {
     const cases: [string, (f: any) => void][] = [
-      ["länk med spårningsparametrar", (f) => (f.source += "?utm_source=google")],
+      ["länk med spårningsparametrar", (f) => (f.source += "&utm_source=google")],
       ["länk med gclid", (f) => (f.source += "&gclid=abc")],
       ["länk utan https", (f) => (f.source = "http://example.se/foder")],
       ["okänt djurslag", (f) => (f.species = "kanin")],
@@ -59,7 +59,7 @@ describe("datamodellen (D2)", () => {
   });
 
   it("ger ett felmeddelande som säger vad som är fel", () => {
-    expect(() => parseFood(withChange((f) => (f.source += "?utm_source=google")))).toThrow(
+    expect(() => parseFood(withChange((f) => (f.source += "&utm_source=google")))).toThrow(
       /spårningsparametrar/,
     );
   });

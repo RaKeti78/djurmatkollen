@@ -8,7 +8,7 @@ Projektet byggs med spec driven development. Allt börjar i [docs/spec.md](docs/
 
 | Mapp | Innehåll |
 | --- | --- |
-| `docs/` | Specen |
+| `docs/` | Specen och instruktionen för utläsning av en produktsida |
 | `src/` | Datamodell, beräkningar, varningsregler och diagram |
 | `tests/` | Tester mot exempelfodren |
 | `testdata/foods/` | Exempelfoder för hund och katt med facit för varningarna |
@@ -20,6 +20,13 @@ npm install
 npm test
 ```
 
+Rensa en länk och kontrollera en utläsning (se [docs/utlasning.md](docs/utlasning.md)):
+
+```sh
+npm run rensa -- "<länk>"
+npm run kontrollera -- <fil.json>
+```
+
 ## Status
 
-Version 1: U1 (projektgrund) och U2 (datamodell) klara. Nästa steg är U3 (utläsning).
+Version 1: U1 (projektgrund), U2 (datamodell) och U3 (utläsning) klara. Nästa steg är U4 (beräkningar).

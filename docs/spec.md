@@ -107,7 +107,7 @@ I version 1 gör Claude i projektet det som Backend och Utläsning med AI gör i
 | --- | --- | --- | --- |
 | Röd | Socker eller sirap, konstgjorda färgämnen, BHA, BHT, etoxikin, propylenglykol | – | Taurin saknas i värmebehandlat foder |
 | Orange | Djurkälla som inte anges ("animaliska biprodukter", "djurfetter"), konserveringsmedel eller antioxidanter som inte anges, spannmål uppdelad på 3 eller fler namn, baljväxter i spannmålsfritt foder utan angiven mängd, kompletteringsfoder (räcker inte som ensam mat) | Fett över 18 %, protein under 18 % | Fett över 30 %, protein under 26 %, kolhydrater över 35 % |
-| Gul | Påstående som inte stämmer med siffrorna (D3), "nyttiga" tillsatser under 0,1 %, procent saknas för någon av de fem första ingredienserna, två olika värden för samma sak på sidan (K7), råfoder (hygienråd: rått kött kan bära salmonella) | | Råfoder utan angiven taurinhalt (hjärta ger naturligt taurin, men mängden är okänd), fett över 22 % i foder för kastrerade katter eller viktkontroll |
+| Gul | Påstående som inte stämmer med siffrorna (D3), "nyttiga" tillsatser under 0,1 %, procent saknas för någon av de fem första råvarorna (tillsatser som vitaminer och mineraler räknas inte), två olika värden för samma sak på sidan (K7), råfoder (hygienråd: rått kött kan bära salmonella) | | Råfoder utan angiven taurinhalt (hjärta ger naturligt taurin, men mängden är okänd), fett över 22 % i foder för kastrerade katter eller viktkontroll |
 
 ### D5 Diagram
 

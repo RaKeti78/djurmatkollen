@@ -7,17 +7,49 @@
   "foodType": "farsk",
   "targetGroup": "Katter i alla åldrar, särskilt kattungar och katter som börjar med råfoder",
   "ingredients": [
-    { "name": "Kyckling (hjärta, kött, ben, brosk)", "percent": 63, "group": "animaliskt" },
-    { "name": "Nöt (lunga, hjärta, kött, lever, blod, brosk)", "percent": 36, "group": "animaliskt" },
-    { "name": "Kallpressad solrosolja", "percent": null, "group": "fett" },
-    { "name": "Tång", "percent": null, "group": "ovrigt" }
+    {
+      "name": "Kyckling (hjärta, kött, ben, brosk)",
+      "percent": 63,
+      "group": "animaliskt"
+    },
+    {
+      "name": "Nöt (lunga, hjärta, kött, lever, blod, brosk)",
+      "percent": 36,
+      "group": "animaliskt"
+    },
+    {
+      "name": "Kallpressad solrosolja",
+      "percent": null,
+      "group": "fett"
+    },
+    {
+      "name": "Tång",
+      "percent": null,
+      "group": "ovrigt"
+    }
   ],
   "ingredientNotes": "Ben 5 % och lever 3 % ingår i köttandelarna ovan. Hjärta ger naturligt taurin.",
-  "analysis": { "protein": 15.9, "fat": 10.3, "fibre": 0.2, "ash": 2.5, "moisture": 69.7, "calcium": 0.4, "phosphorus": 0.3 },
+  "analysis": {
+    "protein": 15.9,
+    "fat": 10.3,
+    "fibre": 0.2,
+    "ash": 2.5,
+    "moisture": 69.7,
+    "calcium": 0.4,
+    "phosphorus": 0.3
+  },
   "energyKcalPerKg": 1580,
   "additives": [],
-  "claims": ["Helfoder för katter i alla åldrar", "Inga tillsatta vitaminer", "Inga tillsatser eller konserveringsmedel"],
+  "claims": [
+    "Helfoder för katter i alla åldrar",
+    "Inga tillsatta vitaminer",
+    "Inga tillsatser eller konserveringsmedel"
+  ],
   "conflictingValues": [],
   "price": null,
-  "expected": { "red": 0, "orange": 1, "yellow": 2 }
+  "expected": {
+    "red": 0,
+    "orange": 1,
+    "yellow": 3
+  }
 }

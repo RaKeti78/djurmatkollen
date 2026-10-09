@@ -30,7 +30,7 @@
     { "name": "Vitamin D3", "amount": 2000, "unit": "IE/kg" },
     { "name": "Vitamin E", "amount": 240, "unit": "IE/kg" },
     { "name": "Taurin", "amount": 1500, "unit": "mg/kg" },
-    { "name": "Rosmarinextrakt (konservering)", "amount": null, "unit": null }
+    { "name": "Rosmarinextrakt", "amount": null, "unit": null, "note": "Konservering" }
   ],
   "claims": ["83 % animaliska råvaror", "Spannmålsfri", "BOF Approved", "Ge ca 15 % mindre än påsens tabell"],
   "claimedAnimalPercent": 83,

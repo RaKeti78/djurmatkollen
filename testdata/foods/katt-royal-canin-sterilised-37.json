@@ -27,7 +27,7 @@
   "energyKcalPerKg": null,
   "additives": [
     { "name": "Taurin", "amount": null, "unit": null, "note": "Sidan anger 2,4 %, troligen 2,4 g/kg" },
-    { "name": "Vitamin E (tokoferol)", "amount": 500, "unit": "mg/kg" },
+    { "name": "Vitamin E", "amount": 500, "unit": "mg/kg" },
     { "name": "Vitamin A", "amount": 19000, "unit": "IE/kg" },
     { "name": "Vitamin D3", "amount": 1000, "unit": "IE/kg" },
     { "name": "L-karnitin", "amount": 100, "unit": "mg/kg" },

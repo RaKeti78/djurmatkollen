@@ -1,131 +1,46 @@
 {
-  "name": "Eukanuba Adult Sterilised/Weight Control kyckling",
+  "name": "Eukanuba Adult Sterilised/Weight Control kyckling kattfoder",
   "brand": "Eukanuba",
   "source": "https://www.brekz.se/eukanuba-kattfoder/eukanuba-adult-sterilisedweight-control-kattfoder-med-kyckling.html",
-  "fetchedAt": "2026-10-08",
+  "fetchedAt": "2026-10-09",
   "species": "katt",
   "foodType": "torr",
-  "targetGroup": "Överviktiga vuxna katter äldre än ett år",
+  "complementary": false,
+  "targetGroup": "Vuxna katter över ett år, steriliserade eller överviktiga",
   "ingredients": [
-    {
-      "name": "Torkad kyckling och kalkon",
-      "percent": 33,
-      "group": "animaliskt"
-    },
-    {
-      "name": "Färsk kyckling",
-      "percent": 14,
-      "group": "animaliskt"
-    },
-    {
-      "name": "Potatis",
-      "percent": null,
-      "group": "kolhydrat"
-    },
-    {
-      "name": "Vitt ris",
-      "percent": 11,
-      "group": "spannmal"
-    },
-    {
-      "name": "Opolerat ris",
-      "percent": 11,
-      "group": "spannmal"
-    },
-    {
-      "name": "Torkad äppelmassa",
-      "percent": null,
-      "group": "ovrigt"
-    },
-    {
-      "name": "Torkad betmassa",
-      "percent": 6,
-      "group": "ovrigt"
-    },
-    {
-      "name": "Fjäderfäfett",
-      "percent": null,
-      "group": "fett"
-    },
-    {
-      "name": "Kycklingbrosk",
-      "percent": null,
-      "group": "animaliskt"
-    },
-    {
-      "name": "Hela torkade ägg",
-      "percent": null,
-      "group": "animaliskt"
-    },
-    {
-      "name": "Fruktooligosackarider",
-      "percent": 0.64,
-      "group": "ovrigt"
-    },
-    {
-      "name": "Torkad bryggerijäst",
-      "percent": null,
-      "group": "ovrigt"
-    },
-    {
-      "name": "Kaliumklorid",
-      "percent": null,
-      "group": "tillsats"
-    }
+    { "name": "Torkad kyckling och kalkon", "percent": 33, "group": "animaliskt" },
+    { "name": "Färsk kyckling", "percent": 14, "group": "animaliskt" },
+    { "name": "Potatis", "percent": null, "group": "kolhydrat" },
+    { "name": "Vitt ris", "percent": 11, "group": "spannmal" },
+    { "name": "Opolerat ris", "percent": 11, "group": "spannmal" },
+    { "name": "Torkad äppelmassa", "percent": null, "group": "ovrigt" },
+    { "name": "Torkad betmassa", "percent": 6, "group": "ovrigt" },
+    { "name": "Fjäderfäfett", "percent": null, "group": "fett" },
+    { "name": "Kycklingsky", "percent": null, "group": "animaliskt" },
+    { "name": "Torkade hela ägg", "percent": null, "group": "animaliskt" },
+    { "name": "Frukto-oligosackarider", "percent": 0.64, "group": "ovrigt" },
+    { "name": "Torkad bryggerijäst", "percent": null, "group": "ovrigt" },
+    { "name": "Kaliumklorid", "percent": null, "group": "tillsats" }
   ],
-  "analysis": {
-    "protein": 33,
-    "fat": 11,
-    "fibre": 3.7,
-    "ash": 8,
-    "moisture": null,
-    "calcium": 1.6,
-    "phosphorus": 1.3
-  },
+  "ingredientNotes": "Kyckling 20 % ingår i torkad kyckling och kalkon 33 %.",
+  "analysis": { "protein": 33, "fat": 11, "fibre": 3.7, "ash": 8, "moisture": null, "calcium": 1.6, "phosphorus": 1.3 },
+  "analysisExtras": { "omega-6": 2.04, "omega-3": 0.26, "magnesium": 0.1 },
   "energyKcalPerKg": null,
   "additives": [
-    {
-      "name": "Vitamin A",
-      "amount": 60000,
-      "unit": "IE/kg"
-    },
-    {
-      "name": "Vitamin D3",
-      "amount": 1725,
-      "unit": "IE/kg"
-    },
-    {
-      "name": "Vitamin E",
-      "amount": 249,
-      "unit": "mg/kg"
-    },
-    {
-      "name": "L-karnitin",
-      "amount": 100,
-      "unit": "mg/kg"
-    },
-    {
-      "name": "Taurin",
-      "amount": 181,
-      "unit": "mg/kg"
-    },
-    {
-      "name": "Natriumbisulfat",
-      "amount": 8.8,
-      "unit": "g/kg"
-    },
-    {
-      "name": "Antioxidanter",
-      "amount": null,
-      "unit": null
-    }
+    { "name": "Vitamin A", "amount": 60000, "unit": "IE/kg" },
+    { "name": "Vitamin D3", "amount": 1725, "unit": "IE/kg" },
+    { "name": "Vitamin E", "amount": 249, "unit": "mg/kg" },
+    { "name": "L-karnitin", "amount": 100, "unit": "mg/kg" },
+    { "name": "Taurin", "amount": 181, "unit": "mg/kg" },
+    { "name": "Koppar", "amount": 8.5, "unit": "mg/kg" },
+    { "name": "Jod", "amount": 1.1, "unit": "mg/kg" },
+    { "name": "Mangan", "amount": 39, "unit": "mg/kg" },
+    { "name": "Zink", "amount": 98, "unit": "mg/kg" },
+    { "name": "Natriumbisulfat", "amount": 8.8, "unit": "g/kg" },
+    { "name": "Antioxidanter", "amount": null, "unit": null }
   ],
-  "claims": [],
+  "claims": ["Hjälper din katt att uppnå en hälsosam vikt", "Innehåller mindre fett", "Stödjer friska urinvägar"],
   "conflictingValues": [],
   "price": null,
-  "expected": {
-    "red": 0,
-    "orange": 1,
-    "yellow": 1
-  }
+  "expected": { "red": 0, "orange": 1, "yellow": 1 }
 }

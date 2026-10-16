@@ -2,10 +2,11 @@
   "name": "Royal Canin Sterilised 37",
   "brand": "Royal Canin",
   "source": "https://www.zooplus.se/shop/katt/kattmat_torrfoder/royal_canin_feline/sterilised/250316",
-  "fetchedAt": "2026-10-08",
+  "fetchedAt": "2026-10-09",
   "species": "katt",
   "foodType": "torr",
-  "targetGroup": "Vuxna kastrerade katter 1–7 år med tendens till övervikt",
+  "complementary": false,
+  "targetGroup": "Vuxna kastrerade katter (1-7 år) med tendens till övervikt",
   "ingredients": [
     { "name": "Dehydrerade fjäderfäproteiner", "percent": null, "group": "animaliskt" },
     { "name": "Majs", "percent": null, "group": "spannmal" },
@@ -23,23 +24,27 @@
     { "name": "Fruktooligosackarider", "percent": null, "group": "ovrigt" },
     { "name": "Sojaolja", "percent": null, "group": "fett" }
   ],
-  "analysis": { "protein": 37.0, "fat": 12.0, "fibre": 6.1, "ash": 8.1, "moisture": 5.5, "calcium": 1.11, "phosphorus": 1.0 },
+  "analysis": { "protein": 37.0, "fat": 12.0, "fibre": 6.1, "ash": 8.1, "moisture": 5.5, "carbohydrates": 31.3, "calcium": 1.11, "phosphorus": 1.0 },
+  "analysisExtras": { "magnesium": 0.08, "arakidonsyra": 0.06, "klorid": 0.81, "kalium": 0.7, "linolsyra": 2.79, "natrium": 0.7, "omega-3": 0.49, "omega-6": 2.95, "stärkelse": 22.8, "taurin": 2.4, "kostfiber": 14.6, "arginin": 1.9, "metionin/cystin": 1.53 },
   "energyKcalPerKg": null,
   "additives": [
-    { "name": "Taurin", "amount": null, "unit": null, "note": "Sidan anger 2,4 %, troligen 2,4 g/kg" },
-    { "name": "Vitamin E", "amount": 500, "unit": "mg/kg" },
     { "name": "Vitamin A", "amount": 19000, "unit": "IE/kg" },
     { "name": "Vitamin D3", "amount": 1000, "unit": "IE/kg" },
-    { "name": "L-karnitin", "amount": 100, "unit": "mg/kg" },
-    { "name": "Klinoptilolit", "amount": 10, "unit": "g/kg" },
-    { "name": "Ammoniumklorid", "amount": 5, "unit": "g/kg" },
+    { "name": "Järn", "amount": 31, "unit": "mg/kg" },
+    { "name": "Jod", "amount": 3.1, "unit": "mg/kg" },
+    { "name": "Koppar", "amount": 9, "unit": "mg/kg" },
+    { "name": "Mangan", "amount": 40, "unit": "mg/kg" },
+    { "name": "Zink", "amount": 94, "unit": "mg/kg" },
+    { "name": "Selen", "amount": 0.05, "unit": "mg/kg" },
+    { "name": "Klinoptilolit", "amount": 10, "unit": "g/kg", "note": "Teknisk tillsats" },
+    { "name": "Ammoniumklorid", "amount": 5, "unit": "g/kg", "note": "Zooteknisk tillsats" },
     { "name": "Antioxidanter", "amount": null, "unit": null }
   ],
-  "claims": [],
+  "claims": ["Komplett torrfoder", "Anpassat energiinnehåll och måttliga fettnivåer bekämpar viktökning", "Ökat proteininnehåll (37%) som bevarar musklerna", "Anpassade mineralinnehållet kan stödja hälsan i njurarna och urinvägarna"],
   "conflictingValues": [
     { "field": "fibre", "values": [6.1, 6.0] },
     { "field": "ash", "values": [8.1, 8.5] }
   ],
-  "price": { "sek": 492, "kg": 4 },
+  "price": { "sek": 78, "kg": 0.4 },
   "expected": { "red": 0, "orange": 3, "yellow": 2 }
 }
